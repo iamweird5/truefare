@@ -1,0 +1,11 @@
+[
+  {"id":"yyz-del","group":"india","label":"Toronto to Delhi","from":"YYZ","to":"DEL","cur":"CAD","ahead":35,"stay":21},
+  {"id":"yyz-bom","group":"india","label":"Toronto to Mumbai","from":"YYZ","to":"BOM","cur":"CAD","ahead":35,"stay":21},
+  {"id":"yvr-del","group":"india","label":"Vancouver to Delhi","from":"YVR","to":"DEL","cur":"CAD","ahead":35,"stay":21},
+  {"id":"jfk-del","group":"india","label":"New York to Delhi","from":"JFK","to":"DEL","cur":"USD","ahead":35,"stay":21},
+  {"id":"jfk-bom","group":"india","label":"New York to Mumbai","from":"JFK","to":"BOM","cur":"USD","ahead":35,"stay":21},
+  {"id":"yyz-cdg","group":"holiday","label":"Toronto to Paris","from":"YYZ","to":"CDG","cur":"CAD","ahead":28,"stay":10},
+  {"id":"yyz-fco","group":"holiday","label":"Toronto to Rome","from":"YYZ","to":"FCO","cur":"CAD","ahead":28,"stay":10},
+  {"id":"yyz-lhr","group":"holiday","label":"Toronto to London","from":"YYZ","to":"LHR","cur":"CAD","ahead":28,"stay":10},
+  {"id":"yul-cdg","group":"holiday","label":"Montreal to Paris","from":"YUL","to":"CDG","cur":"CAD","ahead":28,"stay":10}
+]
