@@ -1,0 +1,28 @@
+name: collect-fares
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install playwright && playwright install --with-deps chromium
+      - run: python collector/collect.py
+        env:
+          TP_TOKEN: ${{ secrets.TP_TOKEN }}
+          TP_MARKER: ${{ secrets.TP_MARKER }}
+          USE_GOOGLE: ${{ vars.USE_GOOGLE || '1' }}
+      - name: Save results
+        run: |
+          git config user.name "fare-bot"
+          git config user.email "fare-bot@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet || (git commit -m "Update fares" && git push)
