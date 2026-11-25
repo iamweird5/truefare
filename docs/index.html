@@ -33,7 +33,7 @@ form button{grid-column:1/-1}
 .price{font-size:1.9rem;font-weight:700;font-variant-numeric:tabular-nums}
 .meta{color:var(--muted);font-size:.85rem}
 .src{list-style:none;margin:0;padding:8px 0 0;border-top:1px solid var(--line);font-size:.85rem}
-.src li{display:flex;justify-content:space-between;gap:8px;padding:2px 0}
+.src li a{display:flex;justify-content:space-between;gap:8px;color:inherit;text-decoration:none;padding:6px 0}
 .src li:first-child b{color:var(--lowest)}
 .empty{color:var(--muted)}
 .stale{font-size:.75rem;color:var(--lowest)}
@@ -84,22 +84,26 @@ $("f").addEventListener("submit", e => {
 const money = (n, c) => { try { return new Intl.NumberFormat("en-CA", {style: "currency", currency: c, maximumFractionDigits: 0}).format(n); } catch { return c + " " + n; } };
 const stops = s => s === 0 ? "nonstop" : s == null ? "" : s + (s === 1 ? " stop" : " stops");
 
+const AL = {AI:"Air India",AC:"Air Canada",EK:"Emirates",QR:"Qatar Airways",EY:"Etihad",TK:"Turkish Airlines",LH:"Lufthansa",BA:"British Airways",AF:"Air France",KL:"KLM",DL:"Delta",UA:"United",AA:"American",WS:"WestJet","6E":"IndiGo",LO:"LOT Polish",SQ:"Singapore Airlines",VS:"Virgin Atlantic",TP:"TAP Portugal",AZ:"ITA Airways",WY:"Oman Air"};
+const withMarker = u => MARKER && !/[?&]marker=/.test(u) ? u + (u.includes("?") ? "&" : "?") + "marker=" + MARKER : u;
+
 function tile(r) {
   const el = document.createElement("div");
   el.className = "tile";
-  const best = r.offers && r.offers[0];
-  const fb = "https://www.aviasales.com/search/" + r.from + r.depart.slice(8, 10) + r.depart.slice(5, 7) + r.to + r.return.slice(8, 10) + r.return.slice(5, 7) + "1" + (MARKER ? "?marker=" + MARKER : "");
-  if (!best) {
-    el.innerHTML = `<h3>${r.label}</h3><div class="empty">No fares collected yet.</div><a class="btn" href="${fb}" target="_blank" rel="noopener">Search this route</a>`;
+  const fb = withMarker("https://www.aviasales.com/search/" + r.from + r.depart.slice(8, 10) + r.depart.slice(5, 7) + r.to + r.return.slice(8, 10) + r.return.slice(5, 7) + "1");
+  const offers = (r.offers || []).filter(o => /^Aviasales/.test(o.source)).slice(0, 3);
+  if (!offers.length) {
+    el.innerHTML = `<h3>${r.label}</h3><div class="empty">Live prices change fast. See today’s fares.</div><a class="btn" href="${fb}" target="_blank" rel="noopener">Compare live prices</a>`;
     return el;
   }
-  const list = r.offers.slice(0, 3).map(o => `<li><span>${o.source}${o.airline ? " · " + o.airline : ""}</span><b>${money(o.price, o.currency)}</b></li>`).join("");
+  const best = offers[0];
+  const rows = offers.map(o => `<li><a href="${withMarker(o.link)}" target="_blank" rel="noopener"><span>${AL[o.airline] || o.airline || "Airline"}${stops(o.stops) ? " · " + stops(o.stops) : ""}</span><b>${money(o.price, o.currency)}</b></a></li>`).join("");
   el.innerHTML = `<h3>${r.label}</h3>
     <div class="price">${money(best.price, best.currency)}</div>
-    <div class="meta">Round trip from ${r.depart} to ${r.return} ${stops(best.stops) ? "· " + stops(best.stops) : ""}</div>
-    ${r.stale ? '<div class="stale">Showing older prices. Latest update failed.</div>' : ""}
-    <ul class="src">${list}</ul>
-    <a class="btn" href="${fb}" target="_blank" rel="noopener">See current deals</a>`;
+    <div class="meta">Round trip, ${r.depart} to ${r.return}</div>
+    <ul class="src">${rows}</ul>
+    <a class="btn" href="${withMarker(best.link)}" target="_blank" rel="noopener">See this deal</a>
+    <div class="meta">Prices change quickly. Confirm on the booking page.</div>`;
   return el;
 }
 
