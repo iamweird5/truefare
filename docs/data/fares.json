@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T21:11+00:00",
+ "updated": "2026-11-26T07:11+00:00",
  "routes": [
   {
    "id": "yyz-del",
@@ -10,32 +10,32 @@
    "cur": "CAD",
    "ahead": 35,
    "stay": 21,
-   "depart": "2026-12-30",
-   "return": "2027-01-20",
+   "depart": "2026-12-31",
+   "return": "2027-01-21",
    "offers": [
     {
      "source": "Google Flights",
-     "price": 1969,
+     "price": 2046,
      "currency": "CAD",
      "airline": "American and British Airways",
      "stops": 2,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+DEL+on+2026-12-30+through+2027-01-20&curr=CAD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+DEL+on+2026-12-31+through+2027-01-21&curr=CAD&hl=en"
     },
     {
      "source": "Google Flights",
-     "price": 2039,
+     "price": 2106,
      "currency": "CAD",
      "airline": "American and British Airways",
      "stops": 2,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+DEL+on+2026-12-30+through+2027-01-20&curr=CAD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+DEL+on+2026-12-31+through+2027-01-21&curr=CAD&hl=en"
     },
     {
      "source": "Google Flights",
-     "price": 2271,
+     "price": 2207,
      "currency": "CAD",
-     "airline": "Air France",
-     "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+DEL+on+2026-12-30+through+2027-01-20&curr=CAD&hl=en"
+     "airline": "American and British Airways",
+     "stops": 2,
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+DEL+on+2026-12-31+through+2027-01-21&curr=CAD&hl=en"
     }
    ],
    "stale": false
@@ -49,32 +49,32 @@
    "cur": "CAD",
    "ahead": 35,
    "stay": 21,
-   "depart": "2026-12-30",
-   "return": "2027-01-20",
+   "depart": "2026-12-31",
+   "return": "2027-01-21",
    "offers": [
     {
      "source": "Google Flights",
-     "price": 1984,
-     "currency": "CAD",
-     "airline": "EgyptAir",
-     "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+BOM+on+2026-12-30+through+2027-01-20&curr=CAD&hl=en"
-    },
-    {
-     "source": "Google Flights",
-     "price": 1993,
+     "price": 1843,
      "currency": "CAD",
      "airline": "American and British Airways",
      "stops": 2,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+BOM+on+2026-12-30+through+2027-01-20&curr=CAD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+BOM+on+2026-12-31+through+2027-01-21&curr=CAD&hl=en"
     },
     {
      "source": "Google Flights",
-     "price": 2284,
+     "price": 2070,
      "currency": "CAD",
      "airline": "American and British Airways",
      "stops": 2,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+BOM+on+2026-12-30+through+2027-01-20&curr=CAD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+BOM+on+2026-12-31+through+2027-01-21&curr=CAD&hl=en"
+    },
+    {
+     "source": "Google Flights",
+     "price": 2081,
+     "currency": "CAD",
+     "airline": "Delta and Air France",
+     "stops": 2,
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+BOM+on+2026-12-31+through+2027-01-21&curr=CAD&hl=en"
     }
    ],
    "stale": false
@@ -88,32 +88,32 @@
    "cur": "CAD",
    "ahead": 35,
    "stay": 21,
-   "depart": "2026-12-30",
-   "return": "2027-01-20",
+   "depart": "2026-12-31",
+   "return": "2027-01-21",
    "offers": [
     {
      "source": "Google Flights",
-     "price": 2091,
+     "price": 2221,
      "currency": "CAD",
-     "airline": "Korean Air",
+     "airline": "Air France",
      "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YVR+to+DEL+on+2026-12-30+through+2027-01-20&curr=CAD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YVR+to+DEL+on+2026-12-31+through+2027-01-21&curr=CAD&hl=en"
     },
     {
      "source": "Google Flights",
-     "price": 2155,
-     "currency": "CAD",
-     "airline": "Cathay Pacific",
-     "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YVR+to+DEL+on+2026-12-30+through+2027-01-20&curr=CAD&hl=en"
-    },
-    {
-     "source": "Google Flights",
-     "price": 2250,
+     "price": 2257,
      "currency": "CAD",
      "airline": "American and British Airways",
      "stops": 2,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YVR+to+DEL+on+2026-12-30+through+2027-01-20&curr=CAD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YVR+to+DEL+on+2026-12-31+through+2027-01-21&curr=CAD&hl=en"
+    },
+    {
+     "source": "Google Flights",
+     "price": 2300,
+     "currency": "CAD",
+     "airline": "Cathay Pacific",
+     "stops": 1,
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YVR+to+DEL+on+2026-12-31+through+2027-01-21&curr=CAD&hl=en"
     }
    ],
    "stale": false
@@ -127,16 +127,16 @@
    "cur": "USD",
    "ahead": 35,
    "stay": 21,
-   "depart": "2026-12-30",
-   "return": "2027-01-20",
+   "depart": "2026-12-31",
+   "return": "2027-01-21",
    "offers": [
     {
      "source": "Google Flights",
-     "price": 1233,
+     "price": 1247,
      "currency": "USD",
      "airline": "Lufthansa",
      "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+JFK+to+DEL+on+2026-12-30+through+2027-01-20&curr=USD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+JFK+to+DEL+on+2026-12-31+through+2027-01-21&curr=USD&hl=en"
     },
     {
      "source": "Google Flights",
@@ -144,18 +144,18 @@
      "currency": "USD",
      "airline": "SWISS",
      "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+JFK+to+DEL+on+2026-12-30+through+2027-01-20&curr=USD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+JFK+to+DEL+on+2026-12-31+through+2027-01-21&curr=USD&hl=en"
     },
     {
      "source": "Google Flights",
-     "price": 1282,
+     "price": 1356,
      "currency": "USD",
-     "airline": "Lufthansa",
+     "airline": "Etihad",
      "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+JFK+to+DEL+on+2026-12-30+through+2027-01-20&curr=USD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+JFK+to+DEL+on+2026-12-31+through+2027-01-21&curr=USD&hl=en"
     }
    ],
-   "stale": true
+   "stale": false
   },
   {
    "id": "jfk-bom",
@@ -194,7 +194,7 @@
      "link": "https://www.google.com/travel/flights?q=Flights+from+JFK+to+BOM+on+2026-12-30+through+2027-01-20&curr=USD&hl=en"
     }
    ],
-   "stale": false
+   "stale": true
   },
   {
    "id": "yyz-cdg",
@@ -205,32 +205,32 @@
    "cur": "CAD",
    "ahead": 28,
    "stay": 10,
-   "depart": "2026-12-23",
-   "return": "2027-01-02",
+   "depart": "2026-12-24",
+   "return": "2027-01-03",
    "offers": [
     {
      "source": "Google Flights",
-     "price": 2003,
-     "currency": "CAD",
-     "airline": "United",
-     "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+CDG+on+2026-12-23+through+2027-01-02&curr=CAD&hl=en"
-    },
-    {
-     "source": "Google Flights",
-     "price": 2061,
+     "price": 1831,
      "currency": "CAD",
      "airline": "Porter Airlines and Air Transat",
      "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+CDG+on+2026-12-23+through+2027-01-02&curr=CAD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+CDG+on+2026-12-24+through+2027-01-03&curr=CAD&hl=en"
     },
     {
      "source": "Google Flights",
-     "price": 2164,
+     "price": 2414,
      "currency": "CAD",
-     "airline": "Air Canada",
-     "stops": 0,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+CDG+on+2026-12-23+through+2027-01-02&curr=CAD&hl=en"
+     "airline": "LOT",
+     "stops": 1,
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+CDG+on+2026-12-24+through+2027-01-03&curr=CAD&hl=en"
+    },
+    {
+     "source": "Google Flights",
+     "price": 2586,
+     "currency": "CAD",
+     "airline": "Icelandair",
+     "stops": 1,
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+CDG+on+2026-12-24+through+2027-01-03&curr=CAD&hl=en"
     }
    ],
    "stale": false
@@ -244,32 +244,32 @@
    "cur": "CAD",
    "ahead": 28,
    "stay": 10,
-   "depart": "2026-12-23",
-   "return": "2027-01-02",
+   "depart": "2026-12-24",
+   "return": "2027-01-03",
    "offers": [
     {
      "source": "Google Flights",
-     "price": 2264,
+     "price": 2456,
      "currency": "CAD",
      "airline": "American",
      "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+FCO+on+2026-12-23+through+2027-01-02&curr=CAD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+FCO+on+2026-12-24+through+2027-01-03&curr=CAD&hl=en"
     },
     {
      "source": "Google Flights",
-     "price": 2537,
+     "price": 2527,
      "currency": "CAD",
-     "airline": "Delta",
+     "airline": "LOT",
      "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+FCO+on+2026-12-23+through+2027-01-02&curr=CAD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+FCO+on+2026-12-24+through+2027-01-03&curr=CAD&hl=en"
     },
     {
      "source": "Google Flights",
-     "price": 2682,
+     "price": 2543,
      "currency": "CAD",
-     "airline": "American and British Airways",
-     "stops": 2,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+FCO+on+2026-12-23+through+2027-01-02&curr=CAD&hl=en"
+     "airline": "EgyptAir",
+     "stops": 1,
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+FCO+on+2026-12-24+through+2027-01-03&curr=CAD&hl=en"
     }
    ],
    "stale": false
@@ -283,32 +283,32 @@
    "cur": "CAD",
    "ahead": 28,
    "stay": 10,
-   "depart": "2026-12-23",
-   "return": "2027-01-02",
+   "depart": "2026-12-24",
+   "return": "2027-01-03",
    "offers": [
     {
      "source": "Google Flights",
-     "price": 2358,
+     "price": 2170,
      "currency": "CAD",
      "airline": "American",
      "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+LHR+on+2026-12-23+through+2027-01-02&curr=CAD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+LHR+on+2026-12-24+through+2027-01-03&curr=CAD&hl=en"
     },
     {
      "source": "Google Flights",
-     "price": 2385,
+     "price": 2170,
      "currency": "CAD",
-     "airline": "American",
+     "airline": "American and British Airways",
      "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+LHR+on+2026-12-23+through+2027-01-02&curr=CAD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+LHR+on+2026-12-24+through+2027-01-03&curr=CAD&hl=en"
     },
     {
      "source": "Google Flights",
-     "price": 2411,
+     "price": 2220,
      "currency": "CAD",
-     "airline": "United",
-     "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+LHR+on+2026-12-23+through+2027-01-02&curr=CAD&hl=en"
+     "airline": "American and Iberia",
+     "stops": 2,
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+LHR+on+2026-12-24+through+2027-01-03&curr=CAD&hl=en"
     }
    ],
    "stale": false
@@ -322,32 +322,32 @@
    "cur": "CAD",
    "ahead": 28,
    "stay": 10,
-   "depart": "2026-12-23",
-   "return": "2027-01-02",
+   "depart": "2026-12-24",
+   "return": "2027-01-03",
    "offers": [
     {
      "source": "Google Flights",
-     "price": 1798,
-     "currency": "CAD",
-     "airline": "American",
-     "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YUL+to+CDG+on+2026-12-23+through+2027-01-02&curr=CAD&hl=en"
-    },
-    {
-     "source": "Google Flights",
-     "price": 1842,
+     "price": 1997,
      "currency": "CAD",
      "airline": "Air Transat",
      "stops": 0,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YUL+to+CDG+on+2026-12-23+through+2027-01-02&curr=CAD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YUL+to+CDG+on+2026-12-24+through+2027-01-03&curr=CAD&hl=en"
     },
     {
      "source": "Google Flights",
-     "price": 1927,
+     "price": 2086,
      "currency": "CAD",
-     "airline": "Air Transat",
+     "airline": "Air France",
      "stops": 0,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YUL+to+CDG+on+2026-12-23+through+2027-01-02&curr=CAD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YUL+to+CDG+on+2026-12-24+through+2027-01-03&curr=CAD&hl=en"
+    },
+    {
+     "source": "Google Flights",
+     "price": 2095,
+     "currency": "CAD",
+     "airline": "Air France",
+     "stops": 0,
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YUL+to+CDG+on+2026-12-24+through+2027-01-03&curr=CAD&hl=en"
     }
    ],
    "stale": false
