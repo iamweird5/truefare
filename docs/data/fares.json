@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T07:11+00:00",
+ "updated": "2026-11-26T21:02+00:00",
  "routes": [
   {
    "id": "yyz-del",
@@ -31,10 +31,10 @@
     },
     {
      "source": "Google Flights",
-     "price": 2207,
+     "price": 2201,
      "currency": "CAD",
-     "airline": "American and British Airways",
-     "stops": 2,
+     "airline": "Air Canada",
+     "stops": 0,
      "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+DEL+on+2026-12-31+through+2027-01-21&curr=CAD&hl=en"
     }
    ],
@@ -54,7 +54,7 @@
    "offers": [
     {
      "source": "Google Flights",
-     "price": 1843,
+     "price": 2000,
      "currency": "CAD",
      "airline": "American and British Airways",
      "stops": 2,
@@ -62,17 +62,17 @@
     },
     {
      "source": "Google Flights",
-     "price": 2070,
-     "currency": "CAD",
-     "airline": "American and British Airways",
-     "stops": 2,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+BOM+on+2026-12-31+through+2027-01-21&curr=CAD&hl=en"
-    },
-    {
-     "source": "Google Flights",
-     "price": 2081,
+     "price": 2107,
      "currency": "CAD",
      "airline": "Delta and Air France",
+     "stops": 2,
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+BOM+on+2026-12-31+through+2027-01-21&curr=CAD&hl=en"
+    },
+    {
+     "source": "Google Flights",
+     "price": 2227,
+     "currency": "CAD",
+     "airline": "American and British Airways",
      "stops": 2,
      "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+BOM+on+2026-12-31+through+2027-01-21&curr=CAD&hl=en"
     }
@@ -93,14 +93,6 @@
    "offers": [
     {
      "source": "Google Flights",
-     "price": 2221,
-     "currency": "CAD",
-     "airline": "Air France",
-     "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+YVR+to+DEL+on+2026-12-31+through+2027-01-21&curr=CAD&hl=en"
-    },
-    {
-     "source": "Google Flights",
      "price": 2257,
      "currency": "CAD",
      "airline": "American and British Airways",
@@ -112,6 +104,14 @@
      "price": 2300,
      "currency": "CAD",
      "airline": "Cathay Pacific",
+     "stops": 1,
+     "link": "https://www.google.com/travel/flights?q=Flights+from+YVR+to+DEL+on+2026-12-31+through+2027-01-21&curr=CAD&hl=en"
+    },
+    {
+     "source": "Google Flights",
+     "price": 2302,
+     "currency": "CAD",
+     "airline": "Air France",
      "stops": 1,
      "link": "https://www.google.com/travel/flights?q=Flights+from+YVR+to+DEL+on+2026-12-31+through+2027-01-21&curr=CAD&hl=en"
     }
@@ -155,7 +155,7 @@
      "link": "https://www.google.com/travel/flights?q=Flights+from+JFK+to+DEL+on+2026-12-31+through+2027-01-21&curr=USD&hl=en"
     }
    ],
-   "stale": false
+   "stale": true
   },
   {
    "id": "jfk-bom",
@@ -166,35 +166,35 @@
    "cur": "USD",
    "ahead": 35,
    "stay": 21,
-   "depart": "2026-12-30",
-   "return": "2027-01-20",
+   "depart": "2026-12-31",
+   "return": "2027-01-21",
    "offers": [
     {
      "source": "Google Flights",
-     "price": 971,
+     "price": 1091,
      "currency": "USD",
      "airline": "JetBlue and Etihad",
      "stops": 2,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+JFK+to+BOM+on+2026-12-30+through+2027-01-20&curr=USD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+JFK+to+BOM+on+2026-12-31+through+2027-01-21&curr=USD&hl=en"
     },
     {
      "source": "Google Flights",
-     "price": 981,
+     "price": 1211,
      "currency": "USD",
-     "airline": "JetBlue and Etihad",
+     "airline": "JetBlue, Etihad and Akasa Air",
      "stops": 2,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+JFK+to+BOM+on+2026-12-30+through+2027-01-20&curr=USD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+JFK+to+BOM+on+2026-12-31+through+2027-01-21&curr=USD&hl=en"
     },
     {
      "source": "Google Flights",
-     "price": 1111,
+     "price": 1242,
      "currency": "USD",
-     "airline": "Etihad",
+     "airline": "KLM",
      "stops": 1,
-     "link": "https://www.google.com/travel/flights?q=Flights+from+JFK+to+BOM+on+2026-12-30+through+2027-01-20&curr=USD&hl=en"
+     "link": "https://www.google.com/travel/flights?q=Flights+from+JFK+to+BOM+on+2026-12-31+through+2027-01-21&curr=USD&hl=en"
     }
    ],
-   "stale": true
+   "stale": false
   },
   {
    "id": "yyz-cdg",
@@ -233,7 +233,7 @@
      "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+CDG+on+2026-12-24+through+2027-01-03&curr=CAD&hl=en"
     }
    ],
-   "stale": false
+   "stale": true
   },
   {
    "id": "yyz-fco",
@@ -272,7 +272,7 @@
      "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+FCO+on+2026-12-24+through+2027-01-03&curr=CAD&hl=en"
     }
    ],
-   "stale": false
+   "stale": true
   },
   {
    "id": "yyz-lhr",
@@ -311,7 +311,7 @@
      "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+LHR+on+2026-12-24+through+2027-01-03&curr=CAD&hl=en"
     }
    ],
-   "stale": false
+   "stale": true
   },
   {
    "id": "yul-cdg",
@@ -350,7 +350,7 @@
      "link": "https://www.google.com/travel/flights?q=Flights+from+YUL+to+CDG+on+2026-12-24+through+2027-01-03&curr=CAD&hl=en"
     }
    ],
-   "stale": false
+   "stale": true
   }
  ]
 }
