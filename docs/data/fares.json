@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:47+00:00",
+ "updated": "2026-11-28T06:35+00:00",
  "routes": [
   {
    "id": "yyz-del",
@@ -233,7 +233,7 @@
      "link": "https://www.google.com/travel/flights?q=Flights+from+YYZ+to+CDG+on+2026-12-25+through+2027-01-04&curr=CAD&hl=en"
     }
    ],
-   "stale": false
+   "stale": true
   },
   {
    "id": "yyz-fco",
